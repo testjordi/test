@@ -1,11 +1,11 @@
-<!--test2-->
+
 <?php
 	session_start();
 	if(isset($_SESSION['loguejat']))
 	$loguejat=$_SESSION['loguejat'];else $loguejat=false;
 	if(isset($_SESSION['carret']))
 	$carret=$_SESSION['carret'];else $carret=false;
-	//test final
+	
 
 ?>
 <!DOCTYPE html>
