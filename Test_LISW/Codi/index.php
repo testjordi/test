@@ -1,11 +1,11 @@
-<!--test2-->
+
 <?php
 	session_start();
 	if(isset($_SESSION['loguejat']))
 	$loguejat=$_SESSION['loguejat'];else $loguejat=false;
 	if(isset($_SESSION['carret']))
 	$carret=$_SESSION['carret'];else $carret=false;
-	//test final
+	
 
 ?>
 <!DOCTYPE html>
@@ -71,7 +71,7 @@
 	</head>
 	
 	<body> 
-		<header> <!-- ARTICLE, capçalera informativa -->
+		<header> <!-- ARTICLE, capï¿½alera informativa -->
 			 <!-- Defineix una divisi o secci en document HTML o per agrupar block-elements per donar-los format en CSS-->
 				<p><b><a href="index.php" >Music'Store</a></b></p>
 		</header>
@@ -124,13 +124,13 @@
 			<form action="buscar.php" method="post"> 
 			<input type="text" name="buscador" onkeyup="showHint(this.value)" />
 			</form>
-			<p>Suggerències: <span id="txtHint"></span></p> 
+			<p>Suggerï¿½ncies: <span id="txtHint"></span></p> 
 			<br>
 			
 			<ul class="men">			
-				<li><b><a href="#" <?php $cat = "Classica";?> onclick="canvidiv('#cos','categoria.php?cat=<?php echo $cat ?>')">Clàssiques</a></b></li><br>
-				<li><b><a href="#" <?php $cat = "Acustica";?> onclick="canvidiv('#cos','categoria.php?cat=<?php echo $cat ?>')">Acústiques</a></b></li><br>
-				<li><b><a href="#" <?php $cat = "Electrica";?> onclick="canvidiv('#cos','categoria.php?cat=<?php echo $cat ?>')">Elèctriques</a></b></li><br>
+				<li><b><a href="#" <?php $cat = "Classica";?> onclick="canvidiv('#cos','categoria.php?cat=<?php echo $cat ?>')">Clï¿½ssiques</a></b></li><br>
+				<li><b><a href="#" <?php $cat = "Acustica";?> onclick="canvidiv('#cos','categoria.php?cat=<?php echo $cat ?>')">Acï¿½stiques</a></b></li><br>
+				<li><b><a href="#" <?php $cat = "Electrica";?> onclick="canvidiv('#cos','categoria.php?cat=<?php echo $cat ?>')">Elï¿½ctriques</a></b></li><br>
 				<li><b><a href="#" <?php $cat = "Baix";?> onclick="canvidiv('#cos','categoria.php?cat=<?php echo $cat ?>')">Baixos</a></b></li>
 			</ul>
 			
