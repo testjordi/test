@@ -1,4 +1,3 @@
-
 <?php
 	session_start();
 	if(isset($_SESSION['loguejat']))
@@ -10,7 +9,7 @@
 ?>
 <!DOCTYPE html>
 <html>
-	//hello2
+	//hello33
 	<head>
 		<meta name="description" content="Test Web">
 		<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" >
