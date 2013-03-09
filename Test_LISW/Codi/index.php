@@ -5,7 +5,6 @@
 	if(isset($_SESSION['carret']))
 	$carret=$_SESSION['carret'];else $carret=false;
 	
-
 ?>
 <!DOCTYPE html>
 <html>
