@@ -1,4 +1,4 @@
-<!--test-->
+<!--test2-->
 <?php
 	session_start();
 	if(isset($_SESSION['loguejat']))
