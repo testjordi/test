@@ -1,0 +1,258 @@
+body
+{
+	background-image:url('../images/iPadBackgroundTexture-grey.png');
+	position: relative;
+	width: 1258px;
+	margin: auto;
+	top: 12px;
+}
+
+header
+{
+	background-color:black;
+	height:80px;
+	border:5px solid orange;
+	text-align: center;	
+}
+header a
+{
+	color: orange;	
+	font-size: 45px;
+	font-family:"Arial";
+	text-decoration:none;
+}
+header a:hover {
+	color: #fc0;
+}
+ 
+#login{
+
+	background-color:black;
+	position:relative;
+	height:100px;
+	width:250px;
+	float:left;
+	border:5px solid orange;
+	padding:15px;
+	top: 12px;
+	color: orange;
+}
+
+#login form {
+	text-align: right;
+}
+
+#login a {
+	color: orange;
+	text-decoration:none;
+	font-size: 20px;
+	padding:20px;
+}
+#login a:hover {
+	color: #fc0;
+}
+
+#menu
+{
+	background-color:black;
+	position:absolute;
+	height:382px;
+	width:250px;
+	border:5px solid orange;
+	padding:15px;
+	top: 254px;
+	color: orange;	
+}
+
+#menu p{
+	text-align:center;
+}
+
+#menu form{
+	text-align:center;
+}
+
+#menu h4{
+
+	font-size: 20px;
+	text-align:center;
+}
+
+.men a{
+
+	text-decoration:none;
+	padding:15px;
+	color: orange;
+	font-size: 23px;
+}
+
+.men a:hover{
+
+	color: #fc0
+}
+
+#menuHorizontal{
+	position: absolute;
+	right: 0px;
+	top: 86px;
+	
+}
+
+/*Funció que aporta objecte de barra menú*/
+.dropdown a {
+	background: #000;
+	border: 5px solid orange; 
+	border-top-width: 0;
+	color: #c90;
+	display: block;
+	line-height: 25px;	
+	text-decoration: none;
+	height: 28px;
+	width: 108px;
+}
+/*Funció que fa reseltar COLOR quan passem ratolí per sobre*/
+.dropdown a:hover {
+	color: #fc0;
+	background: #000;
+}
+/*Funció que dóna estil al menú, amplada i centre el text de cada casella*/
+.dropdown li {
+	text-align: center;
+	width: 135px;
+}
+/*Funció que fa posicionar menú en HORITZONTAL, pot canviar-se a VERTICAL...*/
+.dropdown li.dropdown_trigger {
+	display: inline;
+	float: left; /*Inverteix ordre de la llista menú, de esq-dreta o de dret-esq*/
+	margin: 0 0 0 -1px;
+}
+
+#cos{
+	position:absolute;
+	height:526px;
+	width:952px;
+	top: 150px;
+	right: 0px;
+}
+
+
+#reg{
+	background-color:black;
+	color: orange;	
+	border:5px solid orange;
+	height:516px;
+	width: 299px;
+}
+#reg h4{
+	font-size: 25px;
+	text-align: center;
+}
+#reg form{
+	margin-left: 70px;
+}
+
+#registrar{
+	background-color:black;
+	color: orange;	
+	border:5px solid orange;
+	height:516px;
+	width: 299px;
+	text-align: center;
+}
+#registrar a {
+	text-decoration: none;
+	color: orange;
+}
+#registrar a:hover {
+	color: #fc0;
+}
+
+#clas{
+	background-color:black;
+	color: orange;	
+	border:5px solid orange;
+	height:496px;
+	width: 922px;
+	padding: 10px;
+	
+}
+#clas h2{
+	color: #FF8000;
+}
+#clas h2:hover{
+	color: gold;
+}
+#clas table{
+	text-align: center;
+	margin-left: 12px;
+}
+#buscar{
+	background-color:black;
+	color: orange;	
+	border:5px solid orange;
+	height:516px;
+	width: 942px;
+}
+#buscar table{
+	text-align: center;
+	margin-left: 12px;
+}
+#buscar h3{
+	color: #FF8000;
+}
+#buscar h3:hover{
+	color: gold;
+}
+
+#carret{
+	background-color:black;
+	color: orange;	
+	border:5px solid orange;
+	height:456px;
+	width: 882px;
+	padding: 30px;
+	
+}
+#seguir a {
+	text-decoration: none;
+	color: orange;
+}
+#cat{
+	color: white;
+}
+#cat h2{
+	color: orange;
+}
+#cat table{
+	background-color:black;
+	border:5px solid orange;
+	
+}
+#portada{
+	background-color:black;
+	color: orange;	
+	border:5px solid orange;
+	height:496px;
+	width: 450px;
+	padding: 10px;
+	text-align: center;	
+	margin-left: 225px;
+}
+#portada h2{
+	color: orange
+}
+#admin h2{
+	color: orange	
+}
+#admin table{
+	background-color:black;
+	border:5px solid orange;
+	color: white;
+}
+#admin a{
+	text-decoration: none;
+	color: orange;
+}
+#admin a:hover{
+	color:gold;
+}
