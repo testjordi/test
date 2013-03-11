@@ -1,4 +1,5 @@
 <?php
+	//hello
 	session_start();
 	if(isset($_SESSION['loguejat']))
 	$loguejat=$_SESSION['loguejat'];else $loguejat=false;
