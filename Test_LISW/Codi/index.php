@@ -4,7 +4,7 @@
 	$loguejat=$_SESSION['loguejat'];else $loguejat=false;
 	if(isset($_SESSION['carret']))
 	$carret=$_SESSION['carret'];else $carret=false;
-	
+	//hello
 ?>
 <!DOCTYPE html>
 <html>	
